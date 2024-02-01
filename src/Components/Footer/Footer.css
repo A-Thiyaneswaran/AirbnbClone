@@ -1,0 +1,7 @@
+.grid-items-list > div span:first-child{
+    font-weight: 500;
+}
+.grid-items-list > div span:last-child{
+    font-size: 0.9rem;
+    /* background-color: blueviolet; */
+}
