@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
-import Skeleton from '../../skeleton'
+import Skeleton from '../../Skeleton'
 
 function RowCards() {
 
