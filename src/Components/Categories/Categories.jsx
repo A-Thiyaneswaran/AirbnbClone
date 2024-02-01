@@ -44,14 +44,14 @@ function Categories() {
         </div>
 
         {/* Previous Button */}
-        <div className={`categories page bg-[#333] h-full w-[2rem] absolute left-0 flex items-center justify-start shadow-[1px_0_10px_13px_#fff] ${!isScrolled && "hidden" }`}>
+        <div className={`categories page bg-[#fff] h-full w-[2rem] absolute left-0 flex items-center justify-start ${!isScrolled && "hidden" }`}>
           <span className='h-full flex items-center justify-center'>
             <i className="h-[1.7rem] w-[1.7rem] text-[0.7rem] fa-solid fa-chevron-left bg-white border-[0.05rem] border-[#a7a7a7] rounded-full grid place-content-center"></i>
           </span>
         </div>
 
         {/* Next Button */}
-        <div className='categories page bg-[#fff] h-full w-[2rem] absolute right-0 flex items-center justify-end shadow-[-3px_0_10px_13px_#fff] '>
+        <div className='categories page bg-[#fff] h-full w-[2rem] absolute right-0 flex items-center justify-end '>
           <span className='h-full flex items-center justify-center'>
             <i className="h-[1.7rem] w-[1.7rem] text-[0.7rem] fa-solid fa-chevron-right bg-white border-[0.05rem] border-[#a7a7a7] rounded-full grid place-content-center"></i>
           </span>
