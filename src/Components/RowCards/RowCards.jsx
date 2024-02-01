@@ -6,13 +6,13 @@ function RowCards() {
 
   let details = [
     {imageUrl: "https://a0.muscache.com/im/pictures/458e3fa3-3b67-4dc5-87b3-65178557429b.jpg?im_w=720"},
-    {imageUrl: "https://a0.muscache.com/im/pictures/458e3fa3-3b67-4dc5-87b3-65178557429b.jpg?im_w=720"},
-    {imageUrl: "https://a0.muscache.com/im/pictures/458e3fa3-3b67-4dc5-87b3-65178557429b.jpg?im_w=720"},
-    {imageUrl: "https://a0.muscache.com/im/pictures/458e3fa3-3b67-4dc5-87b3-65178557429b.jpg?im_w=720"},
-    {imageUrl: "https://a0.muscache.com/im/pictures/458e3fa3-3b67-4dc5-87b3-65178557429b.jpg?im_w=720"},
-    {imageUrl: "https://a0.muscache.com/im/pictures/458e3fa3-3b67-4dc5-87b3-65178557429b.jpg?im_w=720"},
-    {imageUrl: "https://a0.muscache.com/im/pictures/458e3fa3-3b67-4dc5-87b3-65178557429b.jpg?im_w=720"},
-    {imageUrl: "https://a0.muscache.com/im/pictures/458e3fa3-3b67-4dc5-87b3-65178557429b.jpg?im_w=720"},
+    {imageUrl: "https://a0.muscache.com/im/pictures/hosting/Hosting-994173166305934113/original/ca38db23-df90-4aef-8b86-70f794761327.jpeg?im_w=720"},
+    {imageUrl: "https://a0.muscache.com/im/pictures/f24e8a32-fad6-43cf-851a-b5ad8b696b44.jpg?im_w=720"},
+    {imageUrl: "https://a0.muscache.com/im/pictures/224efbf0-afec-4a26-b084-771371252a21.jpg?im_w=720"},
+    {imageUrl: "https://a0.muscache.com/im/pictures/cddcb5cb-a9e2-43d4-a3de-b1f3e0da0b70.jpg?im_w=720"},
+    {imageUrl: "https://a0.muscache.com/im/pictures/airflow/Hosting-775279365592138606/original/36009a96-1857-4139-ada0-b846cd809c2b.jpg?im_w=720"},
+    {imageUrl: "https://a0.muscache.com/im/pictures/4e19e09a-58b8-416c-91ae-7bc9fa915f4b.jpg?im_w=720"},
+    {imageUrl: "https://a0.muscache.com/im/pictures/miso/Hosting-906874945711491424/original/1822bf2e-ee30-4c68-b570-18d447160837.jpeg?im_w=720"},
   ]
 
   const [loading, setLoading] = useState(true)
@@ -72,12 +72,12 @@ function RowCards() {
                 {/* Description */}
                 <div className="pt-2 text-left">
                   <div className="flex justify-between">
-                    <h5 className="text-md font-medium text-gray-900 dark:text-black">Karnataka, India</h5>
+                    <h5 className="text-md font-medium text-gray-900 dark:text-black">Tamil Nadu, India</h5>
                     <h5 className="text-md font-light text-gray-900 dark:text-black flex items-center justify-center gap-1"><i className='fa-solid fa-star text-[0.7rem]'></i>4.93</h5>
                   </div>
-                  <p className="font-normal text-gray-700 dark:text-gray-500">199 kilometer's away</p>
-                  <p className="font-normal text-gray-700 dark:text-gray-500">1-6 Sep</p>
-                  <p className="font-normal text-gray-900 dark:text-black mt-1">&#8377;<span className='text-md font-medium'>7076</span> night</p>
+                  <p className="font-normal text-gray-700 dark:text-gray-500">200 KMs</p>
+                  <p className="font-normal text-gray-700 dark:text-gray-500">6-10 Mar</p>
+                  <p className="font-normal text-gray-900 dark:text-black mt-1">&#8377;<span className='text-md font-medium'>15000</span> night</p>
                 </div>
 
               </a>
